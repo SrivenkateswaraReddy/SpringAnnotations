@@ -1,0 +1,45 @@
+2023-03-15T00:01:29.450-05:00  INFO 33544 --- [restartedMain] c.S.project.ProjectApplication           : Starting ProjectApplication using Java 17.0.5 with PID 33544 (D:\Programming\SpringAnnotations\project\target\classes started by VenkateshWaraReddy in D:\Programming\SpringAnnotations\project)
+2023-03-15T00:01:29.464-05:00  INFO 33544 --- [restartedMain] c.S.project.ProjectApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-15T00:01:29.516-05:00  INFO 33544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-15T00:01:29.517-05:00  INFO 33544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-15T00:01:30.744-05:00  INFO 33544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-03-15T00:01:30.752-05:00  INFO 33544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-15T00:01:30.753-05:00  INFO 33544 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-15T00:01:30.821-05:00  INFO 33544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-15T00:01:30.821-05:00  INFO 33544 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1302 ms
+2023-03-15T00:01:31.299-05:00  INFO 33544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-15T00:01:31.449-05:00  INFO 33544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-03-15T00:01:31.962-05:00  INFO 33544 --- [restartedMain] c.S.project.ProjectApplication           : Started ProjectApplication in 2.973 seconds (process running for 3.888)
+2023-03-15T00:01:53.914-05:00  INFO 17336 --- [restartedMain] c.S.project.ProjectApplication           : Starting ProjectApplication using Java 17.0.5 with PID 17336 (D:\Programming\SpringAnnotations\project\target\classes started by VenkateshWaraReddy in D:\Programming\SpringAnnotations\project)
+2023-03-15T00:01:53.926-05:00  INFO 17336 --- [restartedMain] c.S.project.ProjectApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-15T00:01:53.982-05:00  INFO 17336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-15T00:01:53.983-05:00  INFO 17336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-15T00:01:55.311-05:00  INFO 17336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-03-15T00:01:55.320-05:00  INFO 17336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-15T00:01:55.320-05:00  INFO 17336 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-15T00:01:55.402-05:00  INFO 17336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-15T00:01:55.402-05:00  INFO 17336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1418 ms
+2023-03-15T00:01:55.860-05:00  INFO 17336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-15T00:01:56.003-05:00  INFO 17336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-03-15T00:01:56.513-05:00  INFO 17336 --- [restartedMain] c.S.project.ProjectApplication           : Started ProjectApplication in 3.086 seconds (process running for 3.96)
+2023-03-15T00:02:21.038-05:00  INFO 17336 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-15T00:02:21.040-05:00  INFO 17336 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-15T00:02:21.042-05:00  INFO 17336 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-15T00:02:21.085-05:00  WARN 17336 --- [http-nio-8081-exec-1] c.S.project.controller.HomePage          : from the index page  please see the end point
+2023-03-15T00:02:36.526-05:00  WARN 17336 --- [http-nio-8081-exec-3] c.S.project.controller.HomePage          : from the index page  please see the end point
+2023-03-15T22:08:28.595-05:00  INFO 28364 --- [restartedMain] c.S.project.ProjectApplication           : Starting ProjectApplication using Java 17.0.5 with PID 28364 (D:\Programming\SpringAnnotations\project\target\classes started by VenkateshWaraReddy in D:\Programming\SpringAnnotations\project)
+2023-03-15T22:08:28.609-05:00  INFO 28364 --- [restartedMain] c.S.project.ProjectApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-03-15T22:08:28.684-05:00  INFO 28364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-15T22:08:28.684-05:00  INFO 28364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-15T22:08:30.257-05:00  INFO 28364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-03-15T22:08:30.271-05:00  INFO 28364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-15T22:08:30.271-05:00  INFO 28364 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-15T22:08:30.365-05:00  INFO 28364 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-15T22:08:30.365-05:00  INFO 28364 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1680 ms
+2023-03-15T22:08:30.919-05:00  INFO 28364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-15T22:08:31.101-05:00  INFO 28364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-03-15T22:08:31.719-05:00  INFO 28364 --- [restartedMain] c.S.project.ProjectApplication           : Started ProjectApplication in 3.683 seconds (process running for 5.127)
+2023-03-15T22:08:50.134-05:00  INFO 28364 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-15T22:08:50.135-05:00  INFO 28364 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-15T22:08:50.137-05:00  INFO 28364 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-15T22:08:50.216-05:00  WARN 28364 --- [http-nio-8081-exec-1] c.S.project.controller.HomePage          : from the index page  please see the end point

@@ -1,0 +1,56 @@
+
+# Spring properties
+spring:
+  jpa:
+    database: mysql
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    open-in-view: false
+
+  # Database Properties
+  datasource:
+    url: jdbc:mysql://localhost:3306/project
+    username: vicky
+    password: vickyboot
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      continue-on-error: true
+
+
+
+  #Mvc path making strategy
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+# setting up the logger
+logging:
+  level:
+    root: info
+  file:
+    name: app.log
+    path: D:/Application/devlopment
+  pattern:
+    console: "%clr(%d{yy-MM-dd E HH:mm:ss.SSS}){blue} %clr(%-5p) %clr(${PID}){faint} %clr(---){faint} %clr([%8.15t]){cyan} %clr(%-40.40logger{0}){blue} %clr(:){red} %clr(%m){faint}%n"
+    # "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS} | %-6level  | %logger{1.} | %msg%n){blue}"
+    # "%d{yyyy-MM-dd HH:mm:ss} | %-5level | %logger{1.} | %msg%n"
+
+#Server thread Settings
+server:
+  tomcat:
+    threads:
+      max: 200
+      min-spare: 25
+    accept-count: 100
+    max-connections: 2000
+  port: 8081
+
+  # error path
+
+  error:
+    path: /error
