@@ -14,8 +14,8 @@ spring:
   # Database Properties
   datasource:
     url: jdbc:mysql://localhost:3306/project
-    username: vicky
-    password: vickyboot
+    username: 
+    password: 
     driver-class-name: com.mysql.cj.jdbc.Driver
   sql:
     init:
