@@ -1,2 +1,2 @@
 # SpringAnnotations
-Studing spring annotations
+<h2>simple login page for user</h2>
